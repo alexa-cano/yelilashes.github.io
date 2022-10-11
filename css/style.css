@@ -333,7 +333,7 @@ table.lamp th, td {
     padding:10px;
 }
 table.lamp th {
-    width:40px;
+    width:160px;
 }
 
 a{
@@ -341,9 +341,10 @@ a{
     font-family: 'Rubik Dirt', cursive;
     color: rgb(178, 4, 140);
     text-decoration: none;
-
 }
-.contacto{
+
+  /*SECCION FORMULARIO*/
+  .contacto{
     background-color: antiquewhite;
     display: flex;
     flex-direction: row;
@@ -351,14 +352,21 @@ a{
     justify-content: center;
   }
 
+.contacto h3{
+  color: orchid;
+  text-align: center;
+}
+
   .ubicación{
-    padding-left: 30px;
+    padding-left: 120px;
     text-align: left;
   }
   h1{
     color: palevioletred;
     text-align: center;
   }
+  
+  /*FIN DE FORMULARIO*/
 
   div.galeria{
     margin: 50px 28px;
@@ -387,14 +395,3 @@ a{
     width: 100%;
 }
 
-.contacto h3{
-    color: orchid;
-    text-align: center;
-}
-.contacto a{
-    color: white;
-    text-decoration: none;
-    background-color: rgb(204, 91, 248);
-    padding: 10px 50px;
-    margin-top: 35px;
-}
